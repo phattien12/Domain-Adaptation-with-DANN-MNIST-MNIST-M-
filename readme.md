@@ -209,23 +209,6 @@ git clone https://github.com/mashaan14/MNIST-M.git
 test_random_images_with_conf(model, mnist_m_test, device)
 ```
 
----
-
-## 📂 Project Structure
-
-```text
-Domain-Adaptation/
-│
-├── data/                  # MNIST
-├── mnist_m/              # MNIST-M dataset
-├── model.py              # DANN architecture
-├── train.py              # Training loop
-├── utils.py              # Evaluation + visualization
-└── README.md
-```
-
----
-
 ## 🔬 Key Insights
 
 * Domain adaptation is a **minimax optimization problem**
